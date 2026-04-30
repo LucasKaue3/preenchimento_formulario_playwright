@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "playwright test",
-    "test:headed": "playwright test --headed",
-    "test:ui": "playwright test --ui"
+    "test": "playwright test --project=chrome",
+    "test:headed": "playwright test --project=chrome --headed",
+    "test:chrome": "playwright test --project=chrome",
+    "test:ui": "playwright test --project=chrome --ui"
   },
   "devDependencies": {
     "@faker-js/faker": "^9.9.0",
