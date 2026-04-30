@@ -8,20 +8,37 @@
 npm install
 ```
 
-2. Instale os navegadores do Playwright (incluindo suporte ao Chrome channel):
+2. Instale os navegadores do Playwright:
 
 ```bash
 npx playwright install
 ```
 
-3. Rode o teste abrindo no Chrome:
+## Como rodar abrindo no Chrome
+
+### PowerShell (Windows)
+
+```powershell
+$env:BASE_URL="https://seu-endereco-real"
+npm run test:chrome
+```
+
+### CMD (Windows)
+
+```cmd
+set BASE_URL=https://seu-endereco-real
+npm run test:chrome
+```
+
+### Bash (Linux/macOS/Git Bash)
 
 ```bash
 BASE_URL="https://seu-endereco-real" npm run test:chrome
 ```
 
-> Se quiser forçar modo com janela explicitamente:
+## Outros modos úteis
 
 ```bash
-BASE_URL="https://seu-endereco-real" npm run test:headed
+npm run test:headed
+npm run test:ui
 ```
