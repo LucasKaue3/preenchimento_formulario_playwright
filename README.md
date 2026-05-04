@@ -16,24 +16,25 @@ npx playwright install
 
 ## Como rodar abrindo no Chrome
 
+> O teste já abre direto nesta URL de cadastro PF da Hapvida:
+> `https://www.hapvida.com.br/pls/webhap/webnewdentalprestador.pr_Novo_Dentista?pOrgAmb=2&pFisJur=1`
+
 ### PowerShell (Windows)
 
 ```powershell
-$env:BASE_URL="https://seu-endereco-real"
 npm run test:chrome
 ```
 
 ### CMD (Windows)
 
 ```cmd
-set BASE_URL=https://seu-endereco-real
 npm run test:chrome
 ```
 
 ### Bash (Linux/macOS/Git Bash)
 
 ```bash
-BASE_URL="https://seu-endereco-real" npm run test:chrome
+npm run test:chrome
 ```
 
 ## Outros modos úteis
