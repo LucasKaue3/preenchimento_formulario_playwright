@@ -1,0 +1,28 @@
+{
+  "name": "Hapvidaoautomacao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "node tests/bdd/support/run-with-report.js",
+    "cucumber:headless": "cross-env HEADLESS=true node tests/bdd/support/run-with-report.js",
+    "cucumber:headed": "cross-env HEADLESS=false node tests/bdd/support/run-with-report.js",
+    "api": "node tests/bdd/support/run-with-report.js --tags \"@api\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.2",
+    "cross-env": "^10.1.0",
+    "multiple-cucumber-html-reporter": "^3.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "gerador-validador-cpf": "^6.3.0"
+  }
+}

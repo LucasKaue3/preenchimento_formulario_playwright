@@ -1,0 +1,175 @@
+[
+  {
+    "description": "  Como contratador do plato de saúde\n  Quero realizar um orçamento\n  Para comprar um plano de saúde",
+    "elements": [
+      {
+        "description": "",
+        "id": "fluxo-de-orçamento;realizar-um-orçamento-com-sucesso",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Realizar um Orçamento com Sucesso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 420778499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que eu abro a página de orçamento da Hapvida",
+            "match": {
+              "location": "tests\\bdd\\steps\\web\\contrate_online_pf\\cadastro.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 598408300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "realizo um cadastro inicial",
+            "match": {
+              "location": "tests\\bdd\\steps\\web\\contrate_online_pf\\cadastro.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5122669399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "escolho a cidade \"SAO LUIS - MA\"",
+            "match": {
+              "location": "tests\\bdd\\steps\\web\\contrate_online_pf\\localizacao.step.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3225279599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "escolho a cobertura completa",
+            "match": {
+              "location": "tests\\bdd\\steps\\web\\contrate_online_pf\\coberturas.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1901316199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "escolher a acomodação Apartamento",
+            "match": {
+              "location": "tests\\bdd\\steps\\web\\contrate_online_pf\\acomodacao.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 877172200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "escolher a coparticipação Com Coparticipação",
+            "match": {
+              "location": "tests\\bdd\\steps\\web\\contrate_online_pf\\coparticipacao.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1367559899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "escolher Adicionar plano Odontologico na pagina Odonto",
+            "match": {
+              "location": "tests\\bdd\\steps\\web\\contrate_online_pf\\odonto.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922774700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "adicionar um dependente no plano com idade de \"30\" anos",
+            "match": {
+              "location": "tests\\bdd\\steps\\web\\contrate_online_pf\\dependentes.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10928623999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "escolho a primeira proposta clicando em Detalhes do Plano",
+            "match": {
+              "location": "tests\\bdd\\steps\\web\\contrate_online_pf\\resultadoPlanos.steps.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2278495500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "continuo com o cadastro informando todos dados necessários",
+            "match": {
+              "location": "tests\\bdd\\steps\\web\\contrate_online_pf\\cadastro.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6751241399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 325721699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@orcamento_regressivo_contrate_online_pf",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "fluxo-de-orçamento",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Fluxo de Orçamento",
+    "tags": [],
+    "uri": "tests\\bdd\\features\\web\\contrate_online_pf\\orcamento.feature"
+  }
+]
